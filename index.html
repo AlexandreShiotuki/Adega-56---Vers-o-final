@@ -1,149 +1,152 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PET TRAMPOLIM - Histórias não contadas</title>
-    <!-- FONTES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
-   
-    <!-- FONT AWESOME ICONS-->
-    <script src="https://kit.fontawesome.com/b7f26b04de.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADEGA 56 - A MELHOR DO BRASIL</title>
 
-    <!-- BOOTSTRAP CSS -->
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <!-- FONTES -->
 
-    <!-- BOOTSTRAP JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lato:wght@400;700&family=Montserrat&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- Bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/logopng.png" type="image/x-icon">
+
+  <!-- Link do css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="navbar navbar-expand-lg bg-light" id="navbar">
-            <div id="logoDiv">
-              <img src="./images/lOGO.png" alt="" id="logo">
-          </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a href="./index.html" class="anchor">HOME</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#new-article" class="anchor">SOBRE</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#nameB" class="anchor">HISTÓRIAS</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#resumeT" class="anchor">COMO FOI?</a>
-                </li>
-              </ul>
-            </div>
-        </nav>
-    </header>
 
-    <div class="container">
-      <section class="first-section">
-        <article>
-            <div class="left-div">
-                <h1>Bem-vindo(a)!</h1>
-                <p id="intro-text">Este projeto foi desenvolvido pela turma PET TRAMPOLIM
-                em conjunto com a turma 56 de aprendizagem do Senac Marília. 
-                Cada autor escreveu sua própria biografia, totalizando 11 livros 
-                cheios de contos com experiências e pontos de vista que nunca vimos!</p>
-            </div>
-            <div class="right-div">
-                <img src="./images/FOTOS JUNTOS/FOTO JUNTOS OFC.jpg" alt="" width="630px" height="370px" id="intro-photo">
-                <figure>
-                    <figcaption>
-                       <em>Turma 56 e PET Trampolim</em> 
-                    </figcaption>
-                </figure>
-            </div>
-        </article>
-      </section> 
-      
-      <section>
-        <article id="new-article">
-           <div>
-             <h2 id="abouth2">Sobre o projeto</h2>
-             <h2 id="origin">Origem</h2>
-             <p id="originT">Tudo começou quando a docente da turma do PET Trampolim chamou nossa professora para realizarmos uma atividade
-              em conjunto. Tivemos várias idéias e iríamos fazer apenas os livros físicos, porém, dei a sugestão de fazermos um site, onde eu iria desenvolver o 
-              design e o código para poder acolher os livros digitais. Todos concordaram com a ideia e o resultado o nosso trabalho você encontra mais abaixo,
-              nós esperamos que VOCÊ, leitor dos nossos livros, goste muito do conteúdo e que ele agregue no seu conhecimento.
-              BOA LEITURA!
-             </p> 
-           </div>
-        </article>        
-      </section>
-
-      <div id="intro">
-        <h2 id="nameB">PET TRAMPOLIM: Histórias não contadas</h2>
-        <hr>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./images/logopng.png" alt="logo" class="logo img-fluid">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/pages/sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/promocoes.html">Promoções</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/socio.html">Seja sócio</a>
+          </li>
+        </ul>
       </div>
-      
-   
-   <div id="gridB">
-    <div class="row">
-       <div class="col"><a href="./HISTORYS/História 1/teste.html" class="htest"><img src="./images/LIVRO-KENZO.gif" alt="" class="bookImg"></a></div>
-       <div class="col"><a href="./HISTORYS/História 2/h2.html" class="htest"><img src="./images/capa larissa.png" alt="" class="bookImg"></a></div>
-       <div class="col"><a href="./HISTORYS/História 3/h3.html" class="htest"><img src="./images/LUIZ E JOÃO.jpg" alt="" class="bookImg"></a></div>
-       <div class="col"><a href="./HISTORYS/História 4/h4.html" class="htest b4"><img src="./images/larissa dias.png" alt="" class="bookImg"></a></div>
-     </div>
-    <div class="row">
-       <div class="col"><a href="./HISTORYS/História 5/h5.html" class="htest"><img src="./images/Imagem3.jpg" alt="" class="bookImg"></a></div>
-       <div class="col"><a href="./HISTORYS/História 6/h6.html" class="htest"><img src="./images/LIVRO-KENZO.gif" alt="" class="bookImg"></a></div>
-       <div class="col"><a href="./HISTORYS/História 7/h7.html" class="htest"><img src="./images/LIVRO-KENZO.gif" alt="" class="bookImg"></a></div>
-       <div class="col"><a href="./HISTORYS/História 8/h8.html" class="htest b8"><img src="./images/LIVRO-KENZO.gif" alt="" class="bookImg"></a></div>
     </div>
-    <div class="w-100"></div>
-    <div class="row">
-       <div class="col"><a href="./HISTORYS/História 9/h9.html" class="htest"><img src="./images/LIVRO-KENZO.gif" alt="" class="bookImg"></a></div>
-       <div class="col"><a href="./HISTORYS/História 10/h10.html" class="htest"><img src="./images/LIVRO-KENZO.gif" alt="" class="bookImg"></a></div>
-       <div class="col"><a href="./HISTORYS/História 11/h11.html" class="htest"><img src="./images/LIVRO-KENZO.gif" alt="" class="bookImg"></a></div>
-       <div class="col"><a href="./HISTORYS/História 12/h12.html" class="htest b12"><img src="./images/LIVRO-KENZO.gif" alt="" class="bookImg"></a></div>
-    </div>
-   </div>
+  </nav>
 
-   <div id="resume">
-    <h2 id="resumeT">Como foi o desenvolvimento do projeto?</h2>
+  <div class="container container00 container01 mt-4 mb-5 pt-3">
+    <div class="aaa">
+      <p class="planos">PLANOS A PARTIR </p>
+       <p>DE R$230,00 </p> 
+         POR MÊS <br>
+       <p><span class="line">__________________ </span></p>
+        <p>TRÊS <span class="drink">JACK DANIELS</span></p>
+        <p>+ FRETE GRÁTIS</p>    
 
-    <p id="textResume">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, vel dolorum. Neque, aperiam dolores a eius praesentium pariatur blanditiis earum enim consequuntur ad adipisci facilis, itaque cupiditate fuga tempora nulla? Corporis cumque commodi repellat quae similique adipisci. Quod error nam officia deserunt voluptatibus iste? Est quia iure saepe. Sed, officiis ullam error a non, eius perspiciatis dolore cupiditate ex consectetur odit aut, ratione accusantium distinctio cumque temporibus omnis autem. Dolor.</p>
-   </div>
 
-    
+         <a href="./pages/socio.html" class="bonito">
+          <button type="button" class="btn btn-outline-danger compra">SEJA SÓCIO</button>
+        </a>
+
     </div>
 
-    <footer>
-      <div class="blue">
-          <h6>Esperamos que tenha tido uma boa leitura! <br>
-              Siga Alexandre Shiotuki:</h6>
-    
-          <a href="https://github.com/AlexandreShiotuki" target="_blank">   <!-- GITHUB -->
-            <img src="./images/github (3).svg" alt="" class="iconsF">       <!-- GITHUB -->
-          </a>                                                              <!-- GITHUB -->
+      <div>
+        <img src="./images/trio.png" alt="Três garrafas de Jack Daniels" class="trio img-fluid">
+      </div>
 
-          <a href="https://www.instagram.com/alexshiotuki.dev/" target="_blank">  <!-- INSTAGRAM -->
-            <img src="./images/instagram (1).svg" alt="" class="iconsF">          <!-- INSTAGRAM -->
-          </a>                                                                    <!-- INSTAGRAM -->
+  </div>
 
-          <a href="https://www.linkedin.com/in/alexandre-shiotuki-bb20a3240/" target="_blank">  <!-- LINKEDIN -->
-            <img src="./images/linkedin (1).svg" alt="" class="iconsF">                         <!-- LINKEDIN -->
-          </a>                                                                                  <!-- LINKEDIN -->
-         </div>
-         <div id="div">
-          <a href="#navbar" id="back">VOLTAR AO TOPO</a> 
-         </div>
-        
-    </footer>    
+        <div class="convite">
+          <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.6824409076394!2d-49.94899168504684!3d-22.214171485368343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bfd7309baef6d9%3A0x2d5ecbe8edc7dc7c!2sSenac%20Marilia!5e0!3m2!1spt-BR!2sbr!4v1662310140890!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="img-fluid"></iframe>
+          </div>
+
+          <div class="text-convite">
+            <h2 class="h2">venha nos visitar</h2>
+
+               <p>A melhor adegaria do Brasil</p>
+               <p>está perto de sua casa! Clique no</p>
+               <p>mapa ao lado e visite a unidade mais próxima</p>
+          </div>
+
+        </div>
+
+      <div class="alinhamento">
+         <div id="carouselExampleSlidesOnly" class="carousel slide mt-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+             <div class="carousel-item active" data-bs-interval="5000">
+              <img src="./images/Adega-Artesanal-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="./images/fotos-de-adegas-de-madeira.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="./images/para-guardar-vinhos.jpg" class="d-block w-100" alt="...">
+             </div>
+            </div>
+          </div>
+      </div>
+
+    <div class="entregas">
+      <div class="alerta">
+        <h3 class="h3">FAÇA SEU PEDIDO</h3>
+        <p class="entregamos">Entregamos as melhores bebidas <br>
+           na porta da sua casa</p>
+           <a href="https://api.whatsapp.com/send?phone=5514998321498&text=Olá,%20gostaria%20de%20fazer%20um%20pedido" target="_blank">
+            <button type="button" class="btn btn-outline-success wpp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewbox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+              </svg> WhatsApp
+            </button>
+           </a>
+      </div>
+
+      <div class="motoboy">
+        <img src="./images/entregador-ifood-png-motoqueiro-300x276.png" alt="motoboy" class="moto">
+      </div>
+    </div>
+
+    <footer class="footer">
+
+
+      <div class="img">
+        <a href="https://github.com/AlexandreShiotuki" target="_blank" class="icons">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-github" viewbox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+        </a>
+
+        <a href="https://www.instagram.com/alexandre.shiotuki/" target="_blank" class="icons">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram" viewbox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/alexandre-shiotuki-bb20a3240/" target="_blank" class="icons">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin" viewbox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+          </svg>
+        </a>
+      </div>
+    </footer>
+
+
+  <!-- Bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
